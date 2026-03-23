@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.4">
   <diagram name="Part A — Flowchart" id="7lM_iBHoQbmd0Vn4vGcQ">
-    <mxGraphModel dx="1002" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1336" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,11 +25,13 @@
         <mxCell id="F56ldxoGLUWot-hPUFhE-6" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F56ldxoGLUWot-hPUFhE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;NO&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="480" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-17" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;strokeColor=light-dark(#000000,#FFFFFF);" target="F56ldxoGLUWot-hPUFhE-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="F56ldxoGLUWot-hPUFhE-17" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=0;dashed=1;strokeColor=light-dark(#000000,#FFFFFF);entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="F56ldxoGLUWot-hPUFhE-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="F56ldxoGLUWot-hPUFhE-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#E51400,#FFCCCC);fontColor=#ffffff;strokeColor=light-dark(#B20000,#660000);gradientColor=light-dark(#000000,#FF9999);dashed=1;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(153, 0, 0));&quot;&gt;&lt;b&gt;Error: Missing Fields&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="140" x="540" y="360" as="geometry" />
@@ -37,32 +39,64 @@
         <mxCell id="F56ldxoGLUWot-hPUFhE-24" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="F56ldxoGLUWot-hPUFhE-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#E3C800,#FFFF99);fontColor=#000000;strokeColor=light-dark(#B09500,#666600);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(26, 51, 0));&quot;&gt;Is the&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(26, 51, 0));&quot;&gt;Amount Greater Than Zero?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#E3C800,#FFFF99);fontColor=#000000;strokeColor=light-dark(#B09500,#666600);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(26, 51, 0)); font-size: 14px;&quot;&gt;&lt;b&gt;Is the&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(26, 51, 0)); font-size: 14px;&quot;&gt;&lt;b&gt;Amount Greater Than Zero?&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="117.5" x="366" y="480" as="geometry" />
         </mxCell>
         <mxCell id="F56ldxoGLUWot-hPUFhE-20" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F56ldxoGLUWot-hPUFhE-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="YES" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;b&gt;YES&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="380" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-28" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;curved=0;" target="F56ldxoGLUWot-hPUFhE-3">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-35" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=0;" target="F56ldxoGLUWot-hPUFhE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F56ldxoGLUWot-hPUFhE-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#E51400,#FFCCCC);fontColor=#ffffff;strokeColor=light-dark(#B20000,#990000);gradientColor=light-dark(#000000,#FF9999);dashed=1;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(153, 0, 0)); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Error: Invalid Amount&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="140" x="540" y="515" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;NO&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="475" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-29" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#F8CECC,#FFCCFF);strokeColor=light-dark(#B85450,#660066);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153));&quot;&gt;Do Total&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153));&quot;&gt;Debits&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153));&quot;&gt;Equal Total Credits?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-37" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="F56ldxoGLUWot-hPUFhE-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-39" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="F56ldxoGLUWot-hPUFhE-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-29" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#F8CECC,#FFCCFF);strokeColor=light-dark(#B85450,#660066);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153)); font-size: 14px;&quot;&gt;&lt;b&gt;Do Total&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153)); font-size: 14px;&quot;&gt;&lt;b&gt;Debits&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 0, 153)); font-size: 14px;&quot;&gt;&lt;b&gt;Equal Total Credits?&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="124" x="362.75" y="640" as="geometry" />
         </mxCell>
         <mxCell id="F56ldxoGLUWot-hPUFhE-30" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F56ldxoGLUWot-hPUFhE-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F56ldxoGLUWot-hPUFhE-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="YES" vertex="1">
+        <mxCell id="F56ldxoGLUWot-hPUFhE-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;b&gt;YES&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="380" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-34" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;curved=0;" target="F56ldxoGLUWot-hPUFhE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="700" />
+              <mxPoint x="740" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#E51400,#FFCCCC);fontColor=#ffffff;strokeColor=light-dark(#B20000,#990000);gradientColor=light-dark(#000000,#FF9999);dashed=1;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(153, 0, 0)); font-size: 14px;&quot;&gt;&lt;b&gt;Error: Out of Balance&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="540" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-42" edge="1" parent="1" source="F56ldxoGLUWot-hPUFhE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="F56ldxoGLUWot-hPUFhE-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#DAE8FC,#CCCCFF);strokeColor=light-dark(#6C8EBF,#000066);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(0, 0, 102)); font-size: 14px;&quot;&gt;&lt;b&gt;Save Entry to Database&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="345.5" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;b&gt;YES&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;NO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="475" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="F56ldxoGLUWot-hPUFhE-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#FFE6CC,#FFE6CC);strokeColor=light-dark(#D79B00,#663300);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(102, 51, 0)); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Clear Form &amp;amp; Refresh Register&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="345.5" y="910" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
